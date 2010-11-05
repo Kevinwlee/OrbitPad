@@ -52,7 +52,7 @@
 	bouncingRect = [[GravityPoint alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2 -20, self.view.frame.size.height/2 -20, 30,30)];
 	bouncingRect.backgroundColor = [UIColor clearColor];
 	bouncingRect.mass = 10;
-	bouncingRect.thrustMagnitude = 1;
+	bouncingRect.thrustMagnitude = 100 ;
 	bouncingRect.angle = 100;
 	bouncingRect.draggable = NO;
 	[bouncingRect addSubview:ship];
@@ -148,29 +148,7 @@
 	ship.transform = CGAffineTransformMakeRotation(bouncingRect.angle * M_PI/180); //* M_PI/180  +1.57
 	bouncingRect.center = newPoint;
 }
-//CGPoint GetAngle(CGPoint initialp ,CGPoint secondp){
-//	CGFloat distvar = ((initialp.x - secondp.x) * (initialp.x - secondp.x));
-//	CGFloat distvar2 = ((initialp.y - secondp.y) * (initialp.y - secondp.y));
-//	if (distvar + distvar2 == 0){
-//		distvar = 1;
-//		distvar2 = 3;
-//	}
-//	CGFloat veldistance = sqrt((distvar+distvar2));
-//	
-//	distvar = ((fabsf(initialp.x-secondp.x))/veldistance);
-//	distvar2 = ((fabsf(initialp.y-secondp.y))/veldistance);
-//	
-//	if (secondp.x < initialp.x){
-//		distvar = -distvar;
-//	}
-//	if (secondp.y < initialp.y){
-//		distvar2 = -distvar2;
-//	}
-//	
-//	CGPoint fvel = CGPointMake(distvar,distvar2);
-//	
-//	return fvel;
-//}
+
 - (void)draw{
 	//static NSDate *lastDrawTime;
 	if (lastDrawTime){
@@ -183,10 +161,8 @@
 				CGFloat b = bouncingRect.center.x - g.center.x ;
 				CGFloat a = bouncingRect.center.y - g.center.y;
 				CGFloat num = pow(b, 2);
-				CGFloat den = pow(a,2);
+				CGFloat den = pow(a, 2);
 				CGFloat dist = sqrt(num + den);
-				
-				CGFloat distance = [Math distance:bouncingRect.center point2:g.center];
 				if (dist == 0)
 					dist = 1;
 				
