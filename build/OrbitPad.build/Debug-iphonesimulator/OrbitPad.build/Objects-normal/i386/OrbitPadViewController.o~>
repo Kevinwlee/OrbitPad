@@ -1,0 +1,2 @@
+/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m: In function '-[OrbitPadViewController draw]':
+/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:189: warning: unused variable 'distance'

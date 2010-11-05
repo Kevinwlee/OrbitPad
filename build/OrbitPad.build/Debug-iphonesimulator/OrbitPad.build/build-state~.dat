@@ -1,0 +1,313 @@
+TOrbitPad
+v7
+r0
+t309582229.095582
+cCheck dependencies
+cProcessInfoPlistFile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist OrbitPad-Info.plist
+cCompileXIB /Users/kevin/qtech/OrbitPad/MainWindow.xib
+cCompileXIB /Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+cProcessPCH /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch OrbitPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o /Users/kevin/qtech/OrbitPad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Orbit.o /Users/kevin/qtech/OrbitPad/Classes/Orbit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C494D260000000000000110
+t1279872294
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/kevin/qtech/OrbitPad/Classes/Orbit.h
+c000000004CC325A900000000000000C6
+t1287857577
+s198
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/Orbit.m
+c000000004CC3259C0000000000000232
+t1287857564
+s562
+i"Orbit.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.h
+c000000004CC3255300000000000001E6
+t1287857491
+s486
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m
+c000000004CC3255300000000000007B0
+t1287857491
+s1968
+i"OrbitPadAppDelegate.h"
+i"OrbitPadViewController.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h
+c000000004CC3A1C2000000000000012A
+t1287889346
+s298
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m
+c000000004CC3A2080000000000000833
+t1287889416
+s2099
+i"OrbitPadViewController.h"
+
+N/Users/kevin/qtech/OrbitPad/MainWindow.xib
+c000000004CC325530000000000004D13
+t1287857491
+s19731
+
+N/Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+c000000004CC325530000000000003EE5
+t1287857491
+s16101
+
+N/Users/kevin/qtech/OrbitPad/OrbitPad_Prefix.pch
+c000000004CC3255300000000000000B9
+t1287857491
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app
+t2
+s0
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app.dSYM
+t2
+s0
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist
+t1287889427
+s802
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/MainWindow.nib
+t1287889428
+s1125
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad
+t2
+s0
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPadViewController.nib
+t1287889428
+s764
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/PkgInfo
+t1287889427
+s8
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Orbit.o
+t1287889429
+s9076
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPad.LinkFileList
+c000000004CC3A21300000000000001E6
+t1287889427
+s486
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o
+t2
+s0
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o
+t2
+s0
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o
+t1287889429
+s6280
+
+N/Users/kevin/qtech/OrbitPad/main.m
+c000000004CC32553000000000000016B
+t1287857491
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch
+t1287889428
+s13825936
+
+NOrbitPad-Info.plist
+c000000004CC3255300000000000004D6
+t1287857491
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309582227#309582227#0(0"0(0#1#0"8611657664#0"0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Orbit.o /Users/kevin/qtech/OrbitPad/Classes/Orbit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309582229.037009
+e309582229.095493
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Orbit.o
+x/Users/kevin/qtech/OrbitPad/Classes/Orbit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/kevin/qtech/OrbitPad/Classes/Orbit.m309582229#309582229#0(0"0(0#0#43"/Users/kevin/qtech/OrbitPad/Classes/Orbit.m8613555488#1864"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/Orbit.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Orbit.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309582228.951051
+e309582229.021838
+r0
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o
+x/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m:10:
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:12: error: statically allocated instance of Objective-C class 'UIView'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:13: error: statically allocated instance of Objective-C class 'UIView'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:14: error: statically allocated instance of Objective-C class 'UIView'
+lSLF07#2@65"Compile /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m309582228#309582229#0(480"In file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m:10:/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:12: error: statically allocated instance of Objective-C class 'UIView'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:13: error: statically allocated instance of Objective-C class 'UIView'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:14: error: statically allocated instance of Objective-C class 'UIView'3(4@59"Statically allocated instance of Objective-C class 'UIView'309582228#84#132#2(7@79"In file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m309582228#18446744073709551615#0#0(6@57"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m309550291#10#0#10#0#0"0(13@123"Statically allocated instance of Objective-C class 'UIView' in /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582228#18446744073709551615#0#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#12#0#12#0#0"0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#12#0#12#0#0"0(4@59"Statically allocated instance of Objective-C class 'UIView'309582228#216#132#2(7@79"In file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m309582228#18446744073709551615#0#0(6@57"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m309550291#10#0#10#0#0"0(13@123"Statically allocated instance of Objective-C class 'UIView' in /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582228#18446744073709551615#0#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#13#0#13#0#0"0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#13#0#13#0#0"0(4@59"Statically allocated instance of Objective-C class 'UIView'309582228#348#132#2(7@79"In file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m309582228#18446744073709551615#0#0(6@57"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m309550291#10#0#10#0#0"0(13@123"Statically allocated instance of Objective-C class 'UIView' in /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582228#18446744073709551615#0#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#14#0#14#0#0"0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#14#0#14#0#0"0(0#0#57"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m8619634144#1892"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o1#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309582229.021930
+e309582229.086262
+r0
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o
+x/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:9:
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:12: error: statically allocated instance of Objective-C class 'UIView'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:13: error: statically allocated instance of Objective-C class 'UIView'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:14: error: statically allocated instance of Objective-C class 'UIView'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m: In function '-[OrbitPadViewController initWithCoder:]':
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:16: error: incompatible types in assignment
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:17: error: 'struct UIView' has no member named 'backgroundColor'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:18: warning: 'OrbitPadViewController' may not respond to '-addSubview:'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:18: warning: (Messages without a matching method signature
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:18: warning: will be assumed to return 'id' and accept
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:18: warning: '...' as arguments.)
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:19: error: cannot convert to a pointer type
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:21: error: 'Ball' undeclared (first use in this function)
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:21: error: (Each undeclared identifier is reported only once
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:21: error: for each function it appears in.)
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:22: error: 'struct UIView' has no member named 'mass'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:23: error: 'struct UIView' has no member named 'velocity'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:24: error: 'struct UIView' has no member named 'backgroundColor'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:25: warning: 'OrbitPadViewController' may not respond to '-addSubview:'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:26: error: cannot convert to a pointer type
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:29: error: 'struct UIView' has no member named 'mass'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:30: error: 'struct UIView' has no member named 'velocity'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:31: error: 'struct UIView' has no member named 'backgroundColor'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:32: warning: 'OrbitPadViewController' may not respond to '-addSubview:'
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:33: error: cannot convert to a pointer type
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:36: warning: control reaches end of non-void function
+lSLF07#2@68"Compile /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582229#309582229#0(3058"In file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:9:/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:12: error: statically allocated instance of Objective-C class 'UIView'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:13: error: statically allocated instance of Objective-C class 'UIView'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h:14: error: statically allocated instance of Objective-C class 'UIView'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m: In function '-[OrbitPadViewController initWithCoder:]':/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:16: error: incompatible types in assignment/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:17: error: 'struct UIView' has no member named 'backgroundColor'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:18: warning: 'OrbitPadViewController' may not respond to '-addSubview:'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:18: warning: (Messages without a matching method signature/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:18: warning: will be assumed to return 'id' and accept/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:18: warning: '...' as arguments.)/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:19: error: cannot convert to a pointer type/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:21: error: 'Ball' undeclared (first use in this function)/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:21: error: (Each undeclared identifier is reported only once/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:21: error: for each function it appears in.)/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:22: error: 'struct UIView' has no member named 'mass'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:23: error: 'struct UIView' has no member named 'velocity'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:24: error: 'struct UIView' has no member named 'backgroundColor'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:25: warning: 'OrbitPadViewController' may not respond to '-addSubview:'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:26: error: cannot convert to a pointer type/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:29: error: 'struct UIView' has no member named 'mass'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:30: error: 'struct UIView' has no member named 'velocity'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:31: error: 'struct UIView' has no member named 'backgroundColor'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:32: warning: 'OrbitPadViewController' may not respond to '-addSubview:'/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:33: error: cannot convert to a pointer type/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:36: warning: control reaches end of non-void function20(4@59"Statically allocated instance of Objective-C class 'UIView'309582229#86#132#2(7@82"In file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582229#18446744073709551615#0#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#9#0#9#0#0"0(13@123"Statically allocated instance of Objective-C class 'UIView' in /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582229#18446744073709551615#0#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#12#0#12#0#0"0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#12#0#12#0#0"0(4@59"Statically allocated instance of Objective-C class 'UIView'309582229#218#132#2(7@82"In file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582229#18446744073709551615#0#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#9#0#9#0#0"0(13@123"Statically allocated instance of Objective-C class 'UIView' in /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582229#18446744073709551615#0#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#13#0#13#0#0"0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#13#0#13#0#0"0(4@59"Statically allocated instance of Objective-C class 'UIView'309582229#350#132#2(7@82"In file included from /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582229#18446744073709551615#0#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#9#0#9#0#0"0(13@123"Statically allocated instance of Objective-C class 'UIView' in /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582229#18446744073709551615#0#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#14#0#14#0#0"0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h309582146#14#0#14#0#0"0(4@32"Incompatible types in assignment309582229#600#105#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#16#0#16#0#0"0(4@53"'struct UIView' has no member named 'backgroundColor'309582229#705#126#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#17#0#17#0#27"'*' has no member named '*'0(22@58"'OrbitPadViewController' may not respond to '-addSubview:'309582229#831#133#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#18#0#18#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)309582229#964#120#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#18#0#18#0#0"0(4@32"Cannot convert to a pointer type309582229#1295#105#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#19#0#19#0#0"0(4@46"'Ball' undeclared (first use in this function)309582229#1400#119#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#21#0#21#0#43"'*' undeclared (first use in this function)0(4@42"'struct UIView' has no member named 'mass'309582229#1747#115#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#22#0#22#0#27"'*' has no member named '*'0(4@46"'struct UIView' has no member named 'velocity'309582229#1862#119#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#23#0#23#0#27"'*' has no member named '*'0(4@53"'struct UIView' has no member named 'backgroundColor'309582229#1981#126#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#24#0#24#0#27"'*' has no member named '*'0(22@58"'OrbitPadViewController' may not respond to '-addSubview:'309582229#2107#133#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#25#0#25#0#26"'*' may not respond to '*'0(4@32"Cannot convert to a pointer type309582229#2240#105#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#26#0#26#0#0"0(4@42"'struct UIView' has no member named 'mass'309582229#2345#115#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#29#0#29#0#27"'*' has no member named '*'0(4@46"'struct UIView' has no member named 'velocity'309582229#2460#119#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#30#0#30#0#27"'*' has no member named '*'0(4@53"'struct UIView' has no member named 'backgroundColor'309582229#2579#126#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#31#0#31#0#27"'*' has no member named '*'0(22@58"'OrbitPadViewController' may not respond to '-addSubview:'309582229#2705#133#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#32#0#32#0#26"'*' may not respond to '*'0(4@32"Cannot convert to a pointer type309582229#2838#105#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#33#0#33#0#0"0(22@40"Control reaches end of non-void function309582229#2943#115#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309582216#36#0#36#0#40"control reaches end of non-void function0(0#0#60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m8612768096#1898"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o1#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o /Users/kevin/qtech/OrbitPad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309582228.948864
+e309582229.036915
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o
+x/Users/kevin/qtech/OrbitPad/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/kevin/qtech/OrbitPad/main.m309582228#309582229#0(0"0(0#0#34"/Users/kevin/qtech/OrbitPad/main.m8620624992#1854"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/main.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/kevin/qtech/OrbitPad/MainWindow.xib
+s309582227.795284
+e309582228.243166
+r1
+xCompileXIB
+x/Users/kevin/qtech/OrbitPad/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib309582227#309582228#0(0"0(0#0#42"/Users/kevin/qtech/OrbitPad/MainWindow.xib8612888320#538"    cd /Users/kevin/qtech/OrbitPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/MainWindow.nib /Users/kevin/qtech/OrbitPad/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+s309582227.796008
+e309582228.258221
+r1
+xCompileXIB
+x/Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+lSLF07#2@37"CompileXIB OrbitPadViewController.xib309582227#309582228#0(0"0(0#0#54"/Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib8612755424#562"    cd /Users/kevin/qtech/OrbitPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPadViewController.nib /Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CGenerateDSYMFile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app.dSYM /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad
+s309582056.013337
+e309582056.054007
+r1
+xGenerateDSYMFile
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app.dSYM
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/OrbitPad.app.dSYM build/Debug-iphonesimulator/OrbitPad.app/OrbitPad309582056#309582056#0(0"0(0#0#77"/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad8611525152#353"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad -o /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app.dSYM0#
+
+CLd /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad normal i386
+s309582055.570495
+e309582056.013231
+r1
+xLd
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad
+xnormal
+xi386
+lSLF07#2@82"Link /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad309582055#309582056#0(0"0(0#0#0"8610899616#850"    cd /Users/kevin/qtech/OrbitPad    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -filelist /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPad.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad0#
+
+CProcessInfoPlistFile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist OrbitPad-Info.plist
+s309582227.787401
+e309582227.795200
+r1
+xProcessInfoPlistFile
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist
+xOrbitPad-Info.plist
+lSLF07#2@27"Process OrbitPad-Info.plist309582227#309582227#0(0"0(0#0#47"/Users/kevin/qtech/OrbitPad/OrbitPad-Info.plist8613383904#449"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OrbitPad-Info.plist -genpkginfo /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist0#
+
+CProcessPCH /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch OrbitPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s309582228.258338
+e309582228.947740
+r1
+xProcessPCH
+x/var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch
+xOrbitPad_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile OrbitPad_Prefix.pch309582228#309582228#0(0"0(0#0#47"/Users/kevin/qtech/OrbitPad/OrbitPad_Prefix.pch8612789376#1756"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -c /Users/kevin/qtech/OrbitPad/OrbitPad_Prefix.pch -o /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch0#
+
+CTouch /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app
+s309582056.054088
+e309582056.056885
+r1
+xTouch
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app
+lSLF07#2@74"Touch /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app309582056#309582056#0(0"0(0#0#0"8611117952#257"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app0#
+

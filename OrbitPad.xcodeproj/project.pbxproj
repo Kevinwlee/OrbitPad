@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A414379127BACA400739CEF /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A414378127BACA400739CEF /* Ship.png */; };
+		0A4143AA127BB08B00739CEF /* GreenGlowStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4143A9127BB08B00739CEF /* GreenGlowStar.m */; };
+		0A4143CB127BB1A700739CEF /* BlueGlowStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4143CA127BB1A700739CEF /* BlueGlowStar.m */; };
+		0A4143F5127BB4F400739CEF /* RedGlowStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4143F4127BB4F400739CEF /* RedGlowStar.m */; };
+		0A414412127BB65100739CEF /* PurpleGlowStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A414411127BB65100739CEF /* PurpleGlowStar.m */; };
+		0A452C9412792E7500C61296 /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A452C9312792E7500C61296 /* Math.m */; };
+		0A4A4FC7128038CB00E635DF /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A4FC6128038CB00E635DF /* Triangle.m */; };
+		0A99F10B127B55D900A71060 /* GlowStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A99F10A127B55D900A71060 /* GlowStar.m */; };
+		0AD610BD1277748A0039F23A /* GravityPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD610BC1277748A0039F23A /* GravityPoint.m */; };
+		0AD611961277859E0039F23A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD611951277859E0039F23A /* icon.png */; };
+		1D3623260D0F684500981E51 /* OrbitPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* OrbitPadAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* OrbitPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* OrbitPadViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* OrbitPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* OrbitPadViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A414378127BACA400739CEF /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
+		0A4143A8127BB08B00739CEF /* GreenGlowStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenGlowStar.h; sourceTree = "<group>"; };
+		0A4143A9127BB08B00739CEF /* GreenGlowStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenGlowStar.m; sourceTree = "<group>"; };
+		0A4143C9127BB1A700739CEF /* BlueGlowStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueGlowStar.h; sourceTree = "<group>"; };
+		0A4143CA127BB1A700739CEF /* BlueGlowStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueGlowStar.m; sourceTree = "<group>"; };
+		0A4143F3127BB4F400739CEF /* RedGlowStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedGlowStar.h; sourceTree = "<group>"; };
+		0A4143F4127BB4F400739CEF /* RedGlowStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedGlowStar.m; sourceTree = "<group>"; };
+		0A414410127BB65100739CEF /* PurpleGlowStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleGlowStar.h; sourceTree = "<group>"; };
+		0A414411127BB65100739CEF /* PurpleGlowStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleGlowStar.m; sourceTree = "<group>"; };
+		0A452C9212792E7500C61296 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		0A452C9312792E7500C61296 /* Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math.m; sourceTree = "<group>"; };
+		0A4A4FC5128038CB00E635DF /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		0A4A4FC6128038CB00E635DF /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		0A99F109127B55D900A71060 /* GlowStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowStar.h; sourceTree = "<group>"; };
+		0A99F10A127B55D900A71060 /* GlowStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowStar.m; sourceTree = "<group>"; };
+		0AD610BB1277748A0039F23A /* GravityPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityPoint.h; sourceTree = "<group>"; };
+		0AD610BC1277748A0039F23A /* GravityPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityPoint.m; sourceTree = "<group>"; };
+		0AD611951277859E0039F23A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* OrbitPadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitPadAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* OrbitPadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitPadAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* OrbitPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* OrbitPadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrbitPadViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* OrbitPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitPadViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* OrbitPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitPadViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* OrbitPad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitPad_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* OrbitPad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OrbitPad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A452C9212792E7500C61296 /* Math.h */,
+				0A452C9312792E7500C61296 /* Math.m */,
+				1D3623240D0F684500981E51 /* OrbitPadAppDelegate.h */,
+				1D3623250D0F684500981E51 /* OrbitPadAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* OrbitPadViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* OrbitPadViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A4143F2127BB4D700739CEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AD610BB1277748A0039F23A /* GravityPoint.h */,
+				0AD610BC1277748A0039F23A /* GravityPoint.m */,
+				0A99F109127B55D900A71060 /* GlowStar.h */,
+				0A99F10A127B55D900A71060 /* GlowStar.m */,
+				0A4143A8127BB08B00739CEF /* GreenGlowStar.h */,
+				0A4143A9127BB08B00739CEF /* GreenGlowStar.m */,
+				0A4143C9127BB1A700739CEF /* BlueGlowStar.h */,
+				0A4143CA127BB1A700739CEF /* BlueGlowStar.m */,
+				0A4143F3127BB4F400739CEF /* RedGlowStar.h */,
+				0A4143F4127BB4F400739CEF /* RedGlowStar.m */,
+				0A414410127BB65100739CEF /* PurpleGlowStar.h */,
+				0A414411127BB65100739CEF /* PurpleGlowStar.m */,
+				0A4A4FC5128038CB00E635DF /* Triangle.h */,
+				0A4A4FC6128038CB00E635DF /* Triangle.m */,
+			);
+			name = Model;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* OrbitPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0A4143F2127BB4D700739CEF /* Model */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* OrbitPad_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A414378127BACA400739CEF /* Ship.png */,
+				0AD611951277859E0039F23A /* icon.png */,
+				2899E5210DE3E06400AC0155 /* OrbitPadViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* OrbitPad-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* OrbitPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OrbitPad" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrbitPad;
+			productName = OrbitPad;
+			productReference = 1D6058910D05DD3D006BFB54 /* OrbitPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OrbitPad" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* OrbitPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* OrbitPadViewController.xib in Resources */,
+				0AD611961277859E0039F23A /* icon.png in Resources */,
+				0A414379127BACA400739CEF /* Ship.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* OrbitPadAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* OrbitPadViewController.m in Sources */,
+				0AD610BD1277748A0039F23A /* GravityPoint.m in Sources */,
+				0A452C9412792E7500C61296 /* Math.m in Sources */,
+				0A99F10B127B55D900A71060 /* GlowStar.m in Sources */,
+				0A4143AA127BB08B00739CEF /* GreenGlowStar.m in Sources */,
+				0A4143CB127BB1A700739CEF /* BlueGlowStar.m in Sources */,
+				0A4143F5127BB4F400739CEF /* RedGlowStar.m in Sources */,
+				0A414412127BB65100739CEF /* PurpleGlowStar.m in Sources */,
+				0A4A4FC7128038CB00E635DF /* Triangle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OrbitPad_Prefix.pch;
+				INFOPLIST_FILE = "OrbitPad-Info.plist";
+				PRODUCT_NAME = OrbitPad;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OrbitPad_Prefix.pch;
+				INFOPLIST_FILE = "OrbitPad-Info.plist";
+				PRODUCT_NAME = OrbitPad;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OrbitPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OrbitPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,353 @@
+TOrbitPad
+v7
+r0
+t309819574.201513
+cCheck dependencies
+cCpResource build/Debug-iphoneos/OrbitPad.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/Info.plist OrbitPad-Info.plist
+cCompileXIB /Users/kevin/qtech/OrbitPad/MainWindow.xib
+cCompileXIB /Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+cProcessPCH /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch.gch OrbitPad_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/main.o /Users/kevin/qtech/OrbitPad/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadAppDelegate.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadViewController.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/GravityPoint.o /Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad normal armv7
+cGenerateDSYMFile /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app.dSYM /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad
+cProcessProductPackaging "/Users/kevin/Library/MobileDevice/Provisioning Profiles/AF3AEEB3-1C97-4584-94E2-F40D41658367.mobileprovision" /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/embedded.mobileprovision
+cTouch /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad.xcent
+cCodeSign /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004C5A53C10000000000000110
+t1280988097
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+c000000004C06E99F00000000000001A7
+t1275521439
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+c000000004C06E99F00000000000001E5
+t1275521439
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C005A1C00000000003B4B70
+t1275091484
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C005A45000000000036A640
+t1275091525
+s3581504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C005A310000000000001355
+t1275091505
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C00642C000000000000098F
+t1275094060
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0064A60000000002703220
+t1275094182
+s40907296
+
+N/Users/kevin/Library/MobileDevice/Provisioning Profiles/AF3AEEB3-1C97-4584-94E2-F40D41658367.mobileprovision
+c000000004C97E0100000000000005D0E
+t1285021712
+s23822
+
+N/Users/kevin/qtech/OrbitPad/Classes/GravityPoint.h
+c000000004CC73EF70000000000000134
+t1288126199
+s308
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m
+c000000004CC740F3000000000000036A
+t1288126707
+s874
+i"GravityPoint.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.h
+c000000004CC3255300000000000001E6
+t1287857491
+s486
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m
+c000000004CC3255300000000000007B0
+t1287857491
+s1968
+i"OrbitPadAppDelegate.h"
+i"OrbitPadViewController.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h
+c000000004CC7410B0000000000000157
+t1288126731
+s343
+i<UIKit/UIKit.h>
+i"GravityPoint.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m
+c000000004CC73E4300000000000007C9
+t1288126019
+s1993
+i"OrbitPadViewController.h"
+
+N/Users/kevin/qtech/OrbitPad/MainWindow.xib
+c000000004CC325530000000000004D13
+t1287857491
+s19731
+
+N/Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+c000000004CC325530000000000003EE5
+t1287857491
+s16101
+
+N/Users/kevin/qtech/OrbitPad/OrbitPad_Prefix.pch
+c000000004CC3255300000000000000B9
+t1287857491
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app
+t1288126774
+s374
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app.dSYM
+t1288126774
+s102
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/Info.plist
+t1288126772
+s937
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/MainWindow.nib
+t1288126773
+s1125
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad
+t1288126774
+s23692
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPadViewController.nib
+t1288126773
+s764
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/PkgInfo
+t1288126772
+s8
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/ResourceRules.plist
+t1288126772
+s485
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/embedded.mobileprovision
+t1288126774
+s23822
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/GravityPoint.o
+t1288126773
+s16044
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPad.LinkFileList
+c000000004CC7413400000000000001D5
+t1288126772
+s469
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadAppDelegate.o
+t1288126773
+s44880
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadViewController.o
+t1288126773
+s38648
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/main.o
+t1288126773
+s6408
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad.xcent
+t1288126774
+s422
+
+N/Users/kevin/qtech/OrbitPad/main.m
+c000000004CC32553000000000000016B
+t1287857491
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch.gch
+t1288126773
+s9421460
+
+NOrbitPad-Info.plist
+c000000004CC3255300000000000004D6
+t1287857491
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309819572#309819572#0(244"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Kevin Lee (2QS287FZZ2)', 'iPhone Developer: Kevin Lee (4HN6AC3X6M)' -- 'iPhone Developer: Kevin Lee (2QS287FZZ2)' will be used.1(22@236"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Kevin Lee (2QS287FZZ2)', 'iPhone Developer: Kevin Lee (4HN6AC3X6M)' -- 'iPhone Developer: Kevin Lee (2QS287FZZ2)' will be used.309819572#18446744073709551615#0#0(1@0"0(0#1#0"8601220160#0"0#
+
+CCodeSign /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app
+s309819574.064534
+e309819574.201086
+r1
+xCodeSign
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/OrbitPad.app309819574#309819574#0(0"0(0#0#61"/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app8648499424#606"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kevin Lee (2QS287FZZ2)" --resource-rules=/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/ResourceRules.plist --entitlements /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad.xcent /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app0#
+
+CCompileC build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/GravityPoint.o /Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s309819573.779399
+e309819573.860163
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/GravityPoint.o
+x/Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m309819573#309819573#0(0"0(0#0#50"/Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m8653966592#1647"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos -I/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources/armv7 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/GravityPoint.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadAppDelegate.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s309819573.683866
+e309819573.779291
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadAppDelegate.o
+x/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m309819573#309819573#0(0"0(0#0#57"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m8655826432#1661"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos -I/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources/armv7 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadAppDelegate.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadViewController.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s309819573.760592
+e309819573.849424
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadViewController.o
+x/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m309819573#309819573#0(0"0(0#0#60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m8655083136#1667"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos -I/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources/armv7 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadViewController.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/main.o /Users/kevin/qtech/OrbitPad/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s309819573.682353
+e309819573.760492
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/main.o
+x/Users/kevin/qtech/OrbitPad/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/kevin/qtech/OrbitPad/main.m309819573#309819573#0(0"0(0#0#34"/Users/kevin/qtech/OrbitPad/main.m8659690560#1623"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos -I/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources/armv7 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/main.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/kevin/qtech/OrbitPad/MainWindow.xib
+s309819572.655520
+e309819573.054035
+r1
+xCompileXIB
+x/Users/kevin/qtech/OrbitPad/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib309819572#309819573#0(0"0(0#0#42"/Users/kevin/qtech/OrbitPad/MainWindow.xib8660562592#510"    cd /Users/kevin/qtech/OrbitPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/MainWindow.nib /Users/kevin/qtech/OrbitPad/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCompileXIB /Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+s309819572.656405
+e309819573.066584
+r1
+xCompileXIB
+x/Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+lSLF07#2@37"CompileXIB OrbitPadViewController.xib309819572#309819573#0(0"0(0#0#54"/Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib8660263776#534"    cd /Users/kevin/qtech/OrbitPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPadViewController.nib /Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCpResource build/Debug-iphoneos/OrbitPad.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+s309819572.627693
+e309819572.654670
+r1
+xCpResource
+xbuild/Debug-iphoneos/OrbitPad.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist309819572#309819572#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8656544960#459"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app0#
+
+CGenerateDSYMFile /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app.dSYM /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad
+s309819574.024764
+e309819574.042454
+r1
+xGenerateDSYMFile
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app.dSYM
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/OrbitPad.app.dSYM build/Debug-iphoneos/OrbitPad.app/OrbitPad309819574#309819574#0(0"0(0#0#70"/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad8660502880#332"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad -o /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app.dSYM0#
+
+CLd /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad normal armv7
+s309819573.860263
+e309819574.024660
+r1
+xLd
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad
+xnormal
+xarmv7
+lSLF07#2@75"Link /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad309819573#309819574#0(0"0(0#0#0"8664123424#772"    cd /Users/kevin/qtech/OrbitPad    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos -F/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos -filelist /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPad.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad0#
+
+CProcessInfoPlistFile /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/Info.plist OrbitPad-Info.plist
+s309819572.629054
+e309819572.655448
+r1
+xProcessInfoPlistFile
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/Info.plist
+xOrbitPad-Info.plist
+lSLF07#2@27"Process OrbitPad-Info.plist309819572#309819572#0(0"0(0#0#47"/Users/kevin/qtech/OrbitPad/OrbitPad-Info.plist8655813664#522"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OrbitPad-Info.plist -genpkginfo /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/ResourceRules.plist -o /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/Info.plist0#
+
+CProcessPCH /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch.gch OrbitPad_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s309819573.066858
+e309819573.682251
+r1
+xProcessPCH
+x/var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch.gch
+xOrbitPad_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile OrbitPad_Prefix.pch309819573#309819573#0(0"0(0#0#47"/Users/kevin/qtech/OrbitPad/OrbitPad_Prefix.pch8655542592#1531"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos -I/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources/armv7 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/DerivedSources -c /Users/kevin/qtech/OrbitPad/OrbitPad_Prefix.pch -o /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/kevin/Library/MobileDevice/Provisioning Profiles/AF3AEEB3-1C97-4584-94E2-F40D41658367.mobileprovision" /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/embedded.mobileprovision
+s309819574.042570
+e309819574.044154
+r1
+xProcessProductPackaging
+x/Users/kevin/Library/MobileDevice/Provisioning Profiles/AF3AEEB3-1C97-4584-94E2-F40D41658367.mobileprovision
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/kevin/Library/MobileDevice/Provisioning Profiles/AF3AEEB3-1C97-4584-94E2-F40D41658367.mobileprovision" build/Debug-iphoneos/OrbitPad.app/embedded.mobileprovision309819574#309819574#0(0"0(0#0#86"/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/embedded.mobileprovision8659070400#402"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kevin/Library/MobileDevice/Provisioning Profiles/AF3AEEB3-1C97-4584-94E2-F40D41658367.mobileprovision" -o /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad.xcent
+s309819574.048374
+e309819574.064450
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+x/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad.xcent309819574#309819574#0(0"0(0#0#93"/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad.xcent8649333600#413"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad.xcent0#
+
+CTouch /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app
+s309819574.044218
+e309819574.048151
+r1
+xTouch
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app
+lSLF07#2@67"Touch /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app309819574#309819574#0(0"0(0#0#0"8658374656#243"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app0#
+

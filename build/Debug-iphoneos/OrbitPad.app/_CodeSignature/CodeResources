@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>MainWindow.nib</key>
+		<data>
+		TCr1raMLCloq2eQcWfrMIRiwO9I=
+		</data>
+		<key>OrbitPadViewController.nib</key>
+		<data>
+		GTh6EsjFIbaLZGsNsYE4981pwYA=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Ship.png</key>
+		<data>
+		K2bjUkJ9vTrSnZ5zWybTICNxBRE=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		0l8VtzIh3OMXxkdO1LyhwFFy6CA=
+		</data>
+		<key>icon.png</key>
+		<data>
+		5TOCLpoTtJRonvmWVeNbO6oEH7Q=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

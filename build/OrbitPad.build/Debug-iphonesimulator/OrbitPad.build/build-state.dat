@@ -1,0 +1,619 @@
+TOrbitPad
+v7
+r0
+t310656000.033503
+cCheck dependencies
+cProcessInfoPlistFile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist OrbitPad-Info.plist
+cCompileXIB /Users/kevin/qtech/OrbitPad/MainWindow.xib
+cCompileXIB /Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+cCpResource build/Debug-iphonesimulator/OrbitPad.app/icon.png icon.png
+cCpResource build/Debug-iphonesimulator/OrbitPad.app/Ship.png Ship.png
+cProcessPCH /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch OrbitPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o /Users/kevin/qtech/OrbitPad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GravityPoint.o /Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Math.o /Users/kevin/qtech/OrbitPad/Classes/Math.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GlowStar.o /Users/kevin/qtech/OrbitPad/Classes/GlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GreenGlowStar.o /Users/kevin/qtech/OrbitPad/Classes/GreenGlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/BlueGlowStar.o /Users/kevin/qtech/OrbitPad/Classes/BlueGlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/RedGlowStar.o /Users/kevin/qtech/OrbitPad/Classes/RedGlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/PurpleGlowStar.o /Users/kevin/qtech/OrbitPad/Classes/PurpleGlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Triangle.o /Users/kevin/qtech/OrbitPad/Classes/Triangle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad normal i386
+cGenerateDSYMFile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app.dSYM /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad
+cTouch /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C494D260000000000000110
+t1279872294
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/kevin/qtech/OrbitPad/Classes/BlueGlowStar.h
+c000000004CCB7A3600000000000000EA
+t1288403510
+s234
+i<UIKit/UIKit.h>
+i"GlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/BlueGlowStar.m
+c000000004CCB8E4C00000000000002EC
+t1288408652
+s748
+i"BlueGlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/GlowStar.h
+c000000004CCB79BD0000000000000103
+t1288403389
+s259
+i<UIKit/UIKit.h>
+i"GravityPoint.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/GlowStar.m
+c000000004CCEAE20000000000000089A
+t1288613408
+s2202
+i"GlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/GravityCenter.h
+c000000004CC73CD20000000000000132
+t1288125650
+s306
+i<Foundation/Foundation.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/GravityCenter.m
+c000000004CC73CAF00000000000000CF
+t1288125615
+s207
+i"GravityCenter.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/GravityPoint.h
+c000000004CD1C3AD0000000000000186
+t1288815533
+s390
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m
+c000000004CD1C3AD00000000000006B6
+t1288815533
+s1718
+i"GravityPoint.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/GreenGlowStar.h
+c000000004CCB79DA00000000000000ED
+t1288403418
+s237
+i<UIKit/UIKit.h>
+i"GlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/GreenGlowStar.m
+c000000004CCB7A1900000000000002E3
+t1288403481
+s739
+i"GreenGlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/Math.h
+c000000004CCA260000000000000002A8
+t1288316416
+s680
+i<Foundation/Foundation.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/Math.m
+c000000004CD22149000000000000037D
+t1288839497
+s893
+i"Math.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/Orbit.h
+c000000004CC325A900000000000000C6
+t1287857577
+s198
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/Orbit.m
+c000000004CC3259C0000000000000232
+t1287857564
+s562
+i"Orbit.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.h
+c000000004CC3255300000000000001E6
+t1287857491
+s486
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m
+c000000004CC3255300000000000007B0
+t1287857491
+s1968
+i"OrbitPadAppDelegate.h"
+i"OrbitPadViewController.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.h
+c000000004CD0708A0000000000000230
+t1288728714
+s560
+i<UIKit/UIKit.h>
+i"GravityPoint.h"
+i"GlowStar.h"
+i"Triangle.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m
+c000000004CD404620000000000001E55
+t1288963170
+s7765
+i"OrbitPadViewController.h"
+i"Math.h"
+i"BlueGlowStar.h"
+i"GreenGlowStar.h"
+i"RedGlowStar.h"
+i"PurpleGlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/PurpleGlowStar.h
+c000000004CCB7EDD00000000000000EE
+t1288404701
+s238
+i<UIKit/UIKit.h>
+i"GlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/PurpleGlowStar.m
+c000000004CCB7F8E00000000000003A5
+t1288404878
+s933
+i"PurpleGlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/RedGlowStar.h
+c000000004CCB7E8600000000000000E8
+t1288404614
+s232
+i<UIKit/UIKit.h>
+i"GlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/RedGlowStar.m
+c000000004CCB7E8A00000000000003A0
+t1288404618
+s928
+i"RedGlowStar.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/Triangle.h
+c000000004CD0712C0000000000000123
+t1288728876
+s291
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/Triangle.m
+c000000004CD0C0EF0000000000000931
+t1288749295
+s2353
+i"Triangle.h"
+i"Math.h"
+
+N/Users/kevin/qtech/OrbitPad/Classes/untitled.h
+c000000004CCB1E6100000000000000D2
+t1288380001
+s210
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Classes/untitled.m
+c000000004CCB1E59000000000000023B
+t1288379993
+s571
+i"untitled.h"
+
+N/Users/kevin/qtech/OrbitPad/MainWindow.xib
+c000000004CC325530000000000004D13
+t1287857491
+s19731
+
+N/Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+c000000004CCB1E300000000000003EE1
+t1288379952
+s16097
+
+N/Users/kevin/qtech/OrbitPad/OrbitPad_Prefix.pch
+c000000004CC3255300000000000000B9
+t1287857491
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kevin/qtech/OrbitPad/Ship.png
+c000000004CCB784300000000000045DE
+t1288403011
+s17886
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app
+t1288963200
+s306
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app.dSYM
+t1288963200
+s102
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist
+t1288139717
+s836
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/MainWindow.nib
+t1287889428
+s1125
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad
+t1288963200
+s46764
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPadViewController.nib
+t1288379957
+s764
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/PkgInfo
+t1288139717
+s8
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Ship.png
+t1288403021
+s17886
+
+N/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/icon.png
+t1288139717
+s713
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/BlueGlowStar.o
+t1288815533
+s10484
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GlowStar.o
+t1288815533
+s13856
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GravityCenter.o
+t2
+s0
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GravityPoint.o
+t1288815533
+s18872
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GreenGlowStar.o
+t1288815533
+s10500
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Math.o
+t1288839500
+s8348
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Orbit.o
+t1287889429
+s9076
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPad.LinkFileList
+c000000004CD0015C000000000000052E
+t1288700252
+s1326
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o
+t1288815533
+s45716
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o
+t1288963199
+s60656
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/PurpleGlowStar.o
+t1288815533
+s10512
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/RedGlowStar.o
+t1288815533
+s10452
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Triangle.o
+t1288749296
+s15832
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o
+t1287889429
+s6280
+
+N/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/untitled.o
+t2
+s0
+
+N/Users/kevin/qtech/OrbitPad/icon.png
+c000000004CC74E0700000000000002C9
+t1288130055
+s713
+
+N/Users/kevin/qtech/OrbitPad/main.m
+c000000004CC32553000000000000016B
+t1287857491
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch
+t1287889428
+s13825936
+
+NOrbitPad-Info.plist
+c000000004CC74E3500000000000004B2
+t1288130101
+s1202
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310655999#310655999#0(0"0(0#1#0"8675448960#0"0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/BlueGlowStar.o /Users/kevin/qtech/OrbitPad/Classes/BlueGlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310508333.618644
+e310508333.698156
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/BlueGlowStar.o
+x/Users/kevin/qtech/OrbitPad/Classes/BlueGlowStar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/kevin/qtech/OrbitPad/Classes/BlueGlowStar.m310508333#310508333#0(0"0(0#0#50"/Users/kevin/qtech/OrbitPad/Classes/BlueGlowStar.m8736465696#1878"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/BlueGlowStar.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/BlueGlowStar.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GlowStar.o /Users/kevin/qtech/OrbitPad/Classes/GlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310508333.495307
+e310508333.567995
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GlowStar.o
+x/Users/kevin/qtech/OrbitPad/Classes/GlowStar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kevin/qtech/OrbitPad/Classes/GlowStar.m310508333#310508333#0(0"0(0#0#46"/Users/kevin/qtech/OrbitPad/Classes/GlowStar.m8709452992#1870"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/GlowStar.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GlowStar.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GravityCenter.o /Users/kevin/qtech/OrbitPad/Classes/GravityCenter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GravityPoint.o /Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310508333.402503
+e310508333.495093
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GravityPoint.o
+x/Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m310508333#310508333#0(0"0(0#0#50"/Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m8728651872#1878"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/GravityPoint.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GravityPoint.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GreenGlowStar.o /Users/kevin/qtech/OrbitPad/Classes/GreenGlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310508333.568102
+e310508333.657367
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GreenGlowStar.o
+x/Users/kevin/qtech/OrbitPad/Classes/GreenGlowStar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/kevin/qtech/OrbitPad/Classes/GreenGlowStar.m310508333#310508333#0(0"0(0#0#51"/Users/kevin/qtech/OrbitPad/Classes/GreenGlowStar.m8743909760#1880"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/GreenGlowStar.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/GreenGlowStar.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Math.o /Users/kevin/qtech/OrbitPad/Classes/Math.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310532300.146970
+e310532300.233735
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Math.o
+x/Users/kevin/qtech/OrbitPad/Classes/Math.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/kevin/qtech/OrbitPad/Classes/Math.m310532300#310532300#0(0"0(0#0#42"/Users/kevin/qtech/OrbitPad/Classes/Math.m8669994176#1862"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/Math.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Math.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Orbit.o /Users/kevin/qtech/OrbitPad/Classes/Orbit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309582229.037009
+e309582229.095493
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Orbit.o
+x/Users/kevin/qtech/OrbitPad/Classes/Orbit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/kevin/qtech/OrbitPad/Classes/Orbit.m309582229#309582229#0(0"0(0#0#43"/Users/kevin/qtech/OrbitPad/Classes/Orbit.m8613555488#1864"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/Orbit.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Orbit.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310508333.312468
+e310508333.402405
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o
+x/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m310508333#310508333#0(0"0(0#0#57"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m8733167392#1892"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/OrbitPadAppDelegate.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadAppDelegate.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310655999.772300
+e310655999.982267
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o
+x/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m: In function '-[OrbitPadViewController draw]':
+o/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:189: warning: unused variable 'distance'
+lSLF07#2@68"Compile /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m310655999#310655999#0(210"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m: In function '-[OrbitPadViewController draw]':/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m:189: warning: unused variable 'distance'1(22@26"Unused variable 'distance'310655999#108#102#0(6@60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m310655970#189#0#189#0#19"unused variable '*'0(0#0#60"/Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m8668957216#1898"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/OrbitPadViewController.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPadViewController.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/PurpleGlowStar.o /Users/kevin/qtech/OrbitPad/Classes/PurpleGlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310508333.698255
+e310508333.785077
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/PurpleGlowStar.o
+x/Users/kevin/qtech/OrbitPad/Classes/PurpleGlowStar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/kevin/qtech/OrbitPad/Classes/PurpleGlowStar.m310508333#310508333#0(0"0(0#0#52"/Users/kevin/qtech/OrbitPad/Classes/PurpleGlowStar.m8726642112#1882"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/PurpleGlowStar.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/PurpleGlowStar.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/RedGlowStar.o /Users/kevin/qtech/OrbitPad/Classes/RedGlowStar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310508333.657479
+e310508333.784569
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/RedGlowStar.o
+x/Users/kevin/qtech/OrbitPad/Classes/RedGlowStar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/kevin/qtech/OrbitPad/Classes/RedGlowStar.m310508333#310508333#0(0"0(0#0#49"/Users/kevin/qtech/OrbitPad/Classes/RedGlowStar.m8736063168#1876"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/RedGlowStar.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/RedGlowStar.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Triangle.o /Users/kevin/qtech/OrbitPad/Classes/Triangle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310442095.970742
+e310442096.032518
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Triangle.o
+x/Users/kevin/qtech/OrbitPad/Classes/Triangle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/qtech/OrbitPad/Classes/Triangle.m: In function '-[Triangle triangulateAShip:withAStar:]':
+o/Users/kevin/qtech/OrbitPad/Classes/Triangle.m:33: warning: unused variable 'b'
+lSLF07#2@54"Compile /Users/kevin/qtech/OrbitPad/Classes/Triangle.m310442095#310442096#0(183"/Users/kevin/qtech/OrbitPad/Classes/Triangle.m: In function '-[Triangle triangulateAShip:withAStar:]':/Users/kevin/qtech/OrbitPad/Classes/Triangle.m:33: warning: unused variable 'b'1(22@19"Unused variable 'b'310442096#103#80#0(6@46"/Users/kevin/qtech/OrbitPad/Classes/Triangle.m310442095#33#0#33#0#19"unused variable '*'0(0#0#46"/Users/kevin/qtech/OrbitPad/Classes/Triangle.m8614125280#1870"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/Classes/Triangle.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/Triangle.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o /Users/kevin/qtech/OrbitPad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309582228.948864
+e309582229.036915
+r1
+xCompileC
+xbuild/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o
+x/Users/kevin/qtech/OrbitPad/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/kevin/qtech/OrbitPad/main.m309582228#309582229#0(0"0(0#0#34"/Users/kevin/qtech/OrbitPad/main.m8620624992#1854"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -include /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch -c /Users/kevin/qtech/OrbitPad/main.m -o /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/main.o0#
+
+CCompileC build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/untitled.o /Users/kevin/qtech/OrbitPad/Classes/untitled.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/kevin/qtech/OrbitPad/MainWindow.xib
+s309582227.795284
+e309582228.243166
+r1
+xCompileXIB
+x/Users/kevin/qtech/OrbitPad/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib309582227#309582228#0(0"0(0#0#42"/Users/kevin/qtech/OrbitPad/MainWindow.xib8612888320#538"    cd /Users/kevin/qtech/OrbitPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/MainWindow.nib /Users/kevin/qtech/OrbitPad/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+s310072756.932889
+e310072757.334006
+r1
+xCompileXIB
+x/Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib
+lSLF07#2@37"CompileXIB OrbitPadViewController.xib310072756#310072757#0(0"0(0#0#54"/Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib32088486650511460#562"    cd /Users/kevin/qtech/OrbitPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPadViewController.nib /Users/kevin/qtech/OrbitPad/OrbitPadViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/OrbitPad.app/Ship.png Ship.png
+s310095821.211837
+e310095821.221397
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/OrbitPad.app/Ship.png
+xShip.png
+lSLF07#2@13"Copy Ship.png310095821#310095821#0(0"0(0#0#36"/Users/kevin/qtech/OrbitPad/Ship.png8717190176#420"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/kevin/qtech/OrbitPad/Ship.png /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app0#
+
+CCpResource build/Debug-iphonesimulator/OrbitPad.app/icon.png icon.png
+s309832517.436436
+e309832517.444002
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/OrbitPad.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png309832517#309832517#0(0"0(0#0#36"/Users/kevin/qtech/OrbitPad/icon.png8711303584#420"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/kevin/qtech/OrbitPad/icon.png /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app0#
+
+CGenerateDSYMFile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app.dSYM /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad
+s310656000.007846
+e310656000.030849
+r1
+xGenerateDSYMFile
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app.dSYM
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/OrbitPad.app.dSYM build/Debug-iphonesimulator/OrbitPad.app/OrbitPad310656000#310656000#0(0"0(0#0#77"/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad8677113696#353"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad -o /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app.dSYM0#
+
+CLd /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad normal i386
+s310655999.982600
+e310656000.007722
+r1
+xLd
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad
+xnormal
+xi386
+lSLF07#2@82"Link /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad310655999#310656000#0(0"0(0#0#0"8677326560#850"    cd /Users/kevin/qtech/OrbitPad    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -filelist /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/Objects-normal/i386/OrbitPad.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/OrbitPad0#
+
+CProcessInfoPlistFile /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist OrbitPad-Info.plist
+s309832517.432327
+e309832517.436169
+r1
+xProcessInfoPlistFile
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist
+xOrbitPad-Info.plist
+lSLF07#2@27"Process OrbitPad-Info.plist309832517#309832517#0(0"0(0#0#47"/Users/kevin/qtech/OrbitPad/OrbitPad-Info.plist8713792352#449"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OrbitPad-Info.plist -genpkginfo /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app/Info.plist0#
+
+CProcessPCH /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch OrbitPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s309582228.258338
+e309582228.947740
+r1
+xProcessPCH
+x/var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch
+xOrbitPad_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile OrbitPad_Prefix.pch309582228#309582228#0(0"0(0#0#47"/Users/kevin/qtech/OrbitPad/OrbitPad_Prefix.pch8612789376#1756"    cd /Users/kevin/qtech/OrbitPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-generated-files.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-own-target-headers.hmap -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-all-target-headers.hmap -iquote /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/OrbitPad-project-headers.hmap -F/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator -I/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/include -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources/i386 -I/Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphonesimulator/OrbitPad.build/DerivedSources -c /Users/kevin/qtech/OrbitPad/OrbitPad_Prefix.pch -o /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-cqfzmqivcxqjzahgabnezhnhpwrv/OrbitPad_Prefix.pch.gch0#
+
+CTouch /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app
+s310656000.030943
+e310656000.033465
+r1
+xTouch
+x/Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app
+lSLF07#2@74"Touch /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app310656000#310656000#0(0"0(0#0#0"8675571776#257"    cd /Users/kevin/qtech/OrbitPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kevin/qtech/OrbitPad/build/Debug-iphonesimulator/OrbitPad.app0#
+
