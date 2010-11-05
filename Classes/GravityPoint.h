@@ -18,5 +18,5 @@
 @property (nonatomic) CGFloat thrustMagnitude;
 @property (nonatomic) CGFloat angle;
 @property (nonatomic) BOOL draggable;
-
+@property (nonatomic) CGPoint velocity;
 @end

@@ -28,32 +28,31 @@
 	
 	greenRect = [[GlowStar alloc] initWithFrame:CGRectMake(10, 10, 120, 120)];
 	greenRect.backgroundColor = [UIColor clearColor];
-	greenRect.mass = 90;
+	greenRect.mass = 10;
 	[self.view addSubview:greenRect];
 	[stars addObject:greenRect];
 	[greenRect release];
 	
-//	blueRect = [[BlueGlowStar alloc] initWithFrame:CGRectMake(100, 0, 80, 80)];
-//	blueRect.backgroundColor = [UIColor clearColor];
-//	blueRect.mass = 30;
-//	[stars addObject:blueRect];
-//	[self.view addSubview:blueRect];
-//	[blueRect release];
-//		
-//	redRect = [[RedGlowStar alloc] initWithFrame:CGRectMake(self.view.frame.size.height/2, self.view.frame.size.width/2, 80, 80)];
-//	redRect.backgroundColor = [UIColor clearColor];
-//	redRect.mass = 30;
-//	[stars addObject:redRect];
-//	[self.view addSubview:redRect];
-//	[redRect release];
+	blueRect = [[BlueGlowStar alloc] initWithFrame:CGRectMake(100, 0, 80, 80)];
+	blueRect.backgroundColor = [UIColor clearColor];
+	blueRect.mass = 6;
+	[stars addObject:blueRect];
+	[self.view addSubview:blueRect];
+	[blueRect release];
+		
+	redRect = [[RedGlowStar alloc] initWithFrame:CGRectMake(self.view.frame.size.height/2, self.view.frame.size.width/2, 80, 80)];
+	redRect.backgroundColor = [UIColor clearColor];
+	redRect.mass = 6;
+	[stars addObject:redRect];
+	[self.view addSubview:redRect];
+	[redRect release];
 	
 
 	ship = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Ship.png"]];
 	bouncingRect = [[GravityPoint alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2 -20, self.view.frame.size.height/2 -20, 30,30)];
 	bouncingRect.backgroundColor = [UIColor clearColor];
 	bouncingRect.mass = 10;
-	bouncingRect.thrustMagnitude = 100 ;
-	bouncingRect.angle = 100;
+	bouncingRect.angle = 90;
 	bouncingRect.draggable = NO;
 	[bouncingRect addSubview:ship];
 	[ship release];
@@ -157,21 +156,25 @@
 		CGFloat yOffset = 0;
 		for (id *star in stars) {
 			GravityPoint *g = (GravityPoint*)star;
-			if ([Math distance:bouncingRect.center point2:g.center] < 300) {				
-				CGFloat b = bouncingRect.center.x - g.center.x ;
-				CGFloat a = bouncingRect.center.y - g.center.y;
-				CGFloat num = pow(b, 2);
-				CGFloat den = pow(a, 2);
-				CGFloat dist = sqrt(num + den);
+			if ([Math distance:bouncingRect.center point2:g.center] > 0) {				
+				CGFloat bx = bouncingRect.center.x - g.center.x ;
+				CGFloat ay = bouncingRect.center.y - g.center.y;
+				CGFloat distx = pow(bx, 2);
+				CGFloat disty = pow(ay, 2);
+				if (distx +disty == 0) {
+					distx = 1;
+					disty = 3;
+				}
+				CGFloat dist = sqrt((distx + disty));
 				if (dist == 0)
 					dist = 1;
 				
 				//bouncingRect.thrustMagnitude += (1/dist) *g.mass;
-				CGFloat forceA = fabs(a / dist);
-				CGFloat forceB = fabs(b /dist);
-				if (a > 0)
+				CGFloat forceA = fabs(ay) / pow(dist,2) * g.mass;
+				CGFloat forceB = fabs(bx) /pow(dist,2) *g.mass;
+				if (ay > 0)
 					forceA *=-1;
-				if (b > 0) {
+				if (bx > 0) {
 					forceB *=-1;
 				}
 				//offsets
@@ -191,12 +194,19 @@
 
 		}
 		
-		CGFloat x = [Math offsetX:bouncingRect.angle radius:bouncingRect.thrustMagnitude * secondsSinceLastDraw];
-		CGFloat y = [Math offsetY:bouncingRect.angle radius:bouncingRect.thrustMagnitude * secondsSinceLastDraw];
-		
-		CGPoint newPoint = CGPointMake(bouncingRect.center.x + xOffset +x, bouncingRect.center.y +yOffset +y);
+	//	CGFloat x = [Math offsetX:bouncingRect.angle radius:bouncingRect.thrustMagnitude * secondsSinceLastDraw];
+	//	CGFloat y = [Math offsetY:bouncingRect.angle radius:bouncingRect.thrustMagnitude * secondsSinceLastDraw];
+		bouncingRect.velocity = CGPointMake(bouncingRect.velocity.x + xOffset, bouncingRect.velocity.y + yOffset);
+		//CGPoint newPoint = CGPointMake(bouncingRect.center.x + xOffset , bouncingRect.center.y +yOffset);
 		//CGFloat angleNew = atan2( newPoint.y, newPoint.x )* 180 / M_PI;
-		[self setCurrentPoint:newPoint];
+		CGPoint newCenter = CGPointMake(bouncingRect.center.x + bouncingRect.velocity.x, bouncingRect.center.y + bouncingRect.velocity.y);
+
+		bouncingRect.center = newCenter;
+		
+		CGFloat ftangle = atan2( newCenter.y, newCenter.x );
+		
+		ship.transform = CGAffineTransformMakeRotation(ftangle); //* M_PI/180  +1.57
+		//[self setCurrentPoint:newPoint];
 	}
 	lastDrawTime = [[NSDate alloc] init];
 }
