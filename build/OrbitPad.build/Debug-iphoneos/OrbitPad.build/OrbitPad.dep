@@ -1,4 +1,7 @@
-25ecf4956a19dc7f411f897751a67431 f9dfbab9bc9ea048ba8c3a9783ef1b3b ffffffffffffffffffffffffffffffff 15516 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/Triangle.o
+00000000000000000000000000000000 0139a46846543b745cddf0828a1705ab ffffffffffffffffffffffffffffffff 102 /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app.dSYM
+c460007a51d91bb019e7df947d5b68ac 830a78117b7f57c812f9770711389be0 ffffffffffffffffffffffffffffffff 442 /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app
+eb038c45865538234f16c98132c060ce cbc6d9c3fc2f91b92cf6f27bb16e8bbe ffffffffffffffffffffffffffffffff 46464 /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad
+25ecf4956a1d4c04411f897751a675b8 f9dfbab9bc9ea048ba8c3a9783ef1b3b ffffffffffffffffffffffffffffffff 15488 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/Triangle.o
 25ecf4956acc2e8a411f897751a66e3b eec81cde86a1132f572df9ec134cd61f ffffffffffffffffffffffffffffffff 10496 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/PurpleGlowStar.o
 25ecf4956acc2fd5411f897751a66e38 21c259cace7ddc37eb0aad11a3d597bf ffffffffffffffffffffffffffffffff 10448 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/RedGlowStar.o
 25ecf4956accdba3411f897751a66f76 22040c54725ca859c6135c2c6d55dc7d ffffffffffffffffffffffffffffffff 10464 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/BlueGlowStar.o
@@ -6,14 +9,11 @@
 25ecf4956a02e5d5411f897751a66c65 50a503241fd911675e70c873d4026075 ffffffffffffffffffffffffffffffff 13720 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/GlowStar.o
 25ecf4956acb28d9411f897751a676d1 111d70f1c6c1647ef9c2fd78e1e335bd ffffffffffffffffffffffffffffffff 8460 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/Math.o
 25ecf4956ad31198411f897751a66ab3 2f51c95eba3e13a777f2c8a32625c02d ffffffffffffffffffffffffffffffff 19416 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/GravityPoint.o
-25ecf4956a065871411f897751a66367 56a4860b59b54a697d3b637b80cbdb37 ffffffffffffffffffffffffffffffff 59940 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadViewController.o
+25ecf4956a064679411f897751a66494 56a4860b59b54a697d3b637b80cbdb37 ffffffffffffffffffffffffffffffff 59008 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadViewController.o
 25ecf4956a180dba411f897751a66017 23ab665ebf85eed47a9b206cd49ebdab ffffffffffffffffffffffffffffffff 45336 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/OrbitPadAppDelegate.o
 25ecf495261034de411f897751a66cb5 5284b37ed0ad59efe6f8630edfa86352 ffffffffffffffffffffffffffffffff 6408 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/Objects-normal/armv7/main.o
 fc1ca91a3d5a2862af6ceec3303b4871 355edd4c61e84a1986ac3f4bfa0f7dc6 ffffffffffffffffffffffffffffffff 422 /Users/kevin/qtech/OrbitPad/build/OrbitPad.build/Debug-iphoneos/OrbitPad.build/OrbitPad.xcent
-00000000000000000000000000000000 0139a46846543b745cddf0828a1705ab ffffffffffffffffffffffffffffffff 102 /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app.dSYM
-c460007a51dd9d6d19e7df947d5b6ed6 830a78117b7f57c812f9770711389be0 ffffffffffffffffffffffffffffffff 442 /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app
 00000000000000000000000000000000 596a5cb6ece28033b214923c250e754f ffffffffffffffffffffffffffffffff 7234 /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/embedded.mobileprovision
-eb038c458651befe4f16c98132c066b4 cbc6d9c3fc2f91b92cf6f27bb16e8bbe ffffffffffffffffffffffffffffffff 52544 /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/OrbitPad
 000000004cc31b4e0000000000001a63 25ecf4956a106eef411f897751a67e32 ffffffffffffffffffffffffffffffff 9421460 /var/folders/Un/UnX-R0RPH74TEqUewwYos++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrbitPad_Prefix-fwxfhwjgqdmhvjamgnbmvupejjud/OrbitPad_Prefix.pch.gch
 00000000000000000000000000000000 aad5b61d7c9b9a8be9d60d67a406d6eb ffffffffffffffffffffffffffffffff 12950 /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/Ship.png
 00000000000000000000000000000000 cfd364e9c4ee5f8caab2decde890a3d8 ffffffffffffffffffffffffffffffff 690 /Users/kevin/qtech/OrbitPad/build/Debug-iphoneos/OrbitPad.app/icon.png

@@ -10,7 +10,7 @@
 
 
 @implementation GravityPoint
-@synthesize mass, thrustMagnitude, draggable, angle, velocity;
+@synthesize mass, thrustMagnitude, draggable, angle, velocity, key;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {

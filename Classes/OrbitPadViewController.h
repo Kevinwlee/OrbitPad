@@ -10,10 +10,12 @@
 #import "GravityPoint.h"
 #import "GlowStar.h"
 #import "Triangle.h"
+#import "Velocity.h"
 
 @interface OrbitPadViewController : UIViewController {
 	NSTimer *timer;
 	NSMutableArray *stars;
+	
 	GlowStar *greenRect;
 	GravityPoint *yellowRect;
 	GlowStar *blueRect;
@@ -23,6 +25,9 @@
 	UIImageView *ship;
 	NSDate *lastDrawTime;
 	Triangle *triangle;
+	Velocity *velocityVector;
+	
+	NSMutableDictionary *triangles;
 }
 
 @end

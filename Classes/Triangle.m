@@ -30,12 +30,9 @@
 
 -(void)triangulateAShip:(CGPoint)aShip withAStar:(CGPoint)aStar{
 	CGFloat h = [Math distance:aShip point2:aStar];
-	CGFloat b = aShip.x - aStar.x ;
+	//CGFloat b = aShip.x - aStar.x ;
 	CGFloat a = aShip.y - aStar.y;
-	CGFloat A = abs(asinf(a/h)*180/M_PI); //WTF how do i get the angle of A?
-	
-//	CGRect newFrame = CGRectMake(aShip.x, aStar.y, a*2, b*2);
-//	self.frame = newFrame;
+	CGFloat A = abs(asinf(a/h)*180/M_PI); 
 	
 	CGContextRef context =  UIGraphicsGetCurrentContext();
 	CGContextSetRGBStrokeColor(context, 1.0, 1.0, 0.0, 1.0);

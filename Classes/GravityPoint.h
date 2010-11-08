@@ -19,4 +19,5 @@
 @property (nonatomic) CGFloat angle;
 @property (nonatomic) BOOL draggable;
 @property (nonatomic) CGPoint velocity;
+@property (nonatomic, copy) NSString *key;
 @end

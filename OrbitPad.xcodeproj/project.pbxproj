@@ -12,6 +12,7 @@
 		0A4143CB127BB1A700739CEF /* BlueGlowStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4143CA127BB1A700739CEF /* BlueGlowStar.m */; };
 		0A4143F5127BB4F400739CEF /* RedGlowStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4143F4127BB4F400739CEF /* RedGlowStar.m */; };
 		0A414412127BB65100739CEF /* PurpleGlowStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A414411127BB65100739CEF /* PurpleGlowStar.m */; };
+		0A41925D1284F206002E9E8D /* Velocity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A41925C1284F206002E9E8D /* Velocity.m */; };
 		0A452C9412792E7500C61296 /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A452C9312792E7500C61296 /* Math.m */; };
 		0A4A4FC7128038CB00E635DF /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A4FC6128038CB00E635DF /* Triangle.m */; };
 		0A99F10B127B55D900A71060 /* GlowStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A99F10A127B55D900A71060 /* GlowStar.m */; };
@@ -37,6 +38,8 @@
 		0A4143F4127BB4F400739CEF /* RedGlowStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedGlowStar.m; sourceTree = "<group>"; };
 		0A414410127BB65100739CEF /* PurpleGlowStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleGlowStar.h; sourceTree = "<group>"; };
 		0A414411127BB65100739CEF /* PurpleGlowStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleGlowStar.m; sourceTree = "<group>"; };
+		0A41925B1284F206002E9E8D /* Velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Velocity.h; sourceTree = "<group>"; };
+		0A41925C1284F206002E9E8D /* Velocity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Velocity.m; sourceTree = "<group>"; };
 		0A452C9212792E7500C61296 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
 		0A452C9312792E7500C61296 /* Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math.m; sourceTree = "<group>"; };
 		0A4A4FC5128038CB00E635DF /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				0A414411127BB65100739CEF /* PurpleGlowStar.m */,
 				0A4A4FC5128038CB00E635DF /* Triangle.h */,
 				0A4A4FC6128038CB00E635DF /* Triangle.m */,
+				0A41925B1284F206002E9E8D /* Velocity.h */,
+				0A41925C1284F206002E9E8D /* Velocity.m */,
 			);
 			name = Model;
 			path = Classes;
@@ -236,6 +241,7 @@
 				0A4143F5127BB4F400739CEF /* RedGlowStar.m in Sources */,
 				0A414412127BB65100739CEF /* PurpleGlowStar.m in Sources */,
 				0A4A4FC7128038CB00E635DF /* Triangle.m in Sources */,
+				0A41925D1284F206002E9E8D /* Velocity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
